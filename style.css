@@ -1,0 +1,167 @@
+
+			* {
+				margin:0px;
+				padding:0px;
+             font-size: 1em;
+         
+			}
+
+
+.icono{
+	display: flex;
+	justify-content: space-between;
+	font-family:Arial, Helvetica, sans-serif;
+
+}
+.vody{
+	background-color: gray;
+	padding: 0 10%;
+    min-width: 368px;
+}
+.header{
+	background-color: white;
+	border-bottom: solid gray 1px;
+}
+.boton-top{
+	background: blue;
+}
+.arc1{
+	display: flex;
+	justify-content: center;
+	padding: 5% 25%;
+	background: white;
+}
+.diverga{
+	text-align: center;
+}
+
+.parr{
+	margin: 1em;
+}
+.IMAGEN{
+	width: 100%;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+.imagen1{
+	width: 100%;
+}
+.sobretexto{
+	position: absolute;
+	bottom: 1em;
+	left: 4em;
+	color: white;
+}
+.art2{
+	
+	background: white;
+	display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding:5% 1%;
+}
+.art3{
+	
+	background: white;
+	display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding:5% 1%;
+}
+.divs{
+	min-width: 350px;
+	max-width: 450px;
+	margin-left: 2em;
+}
+.imgs{
+	width: 80%;
+	max-width: 100%;
+}
+
+@media(max-width: 1210px){
+  .art3{
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+			#Menu{
+
+
+
+				font-family:Arial, Helvetica, sans-serif;
+
+			}
+
+			ul, ol {
+				list-style:none;
+			}
+
+			.nav > li {
+				float:left;
+			}
+
+			.nav li a {
+				background-color:white;
+				color:black;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+        border-bottom: black;
+			}
+
+			.nav li a:hover {
+
+				background-color:skyblue;
+			}
+
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+
+			.nav li:hover > ul {
+				display:block;
+			}
+
+			.nav li ul li {
+				position:relative;
+			}
+
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+
+
+		@media (max-width: 600px){
+            *{
+				font-size: 0.95em
+			}
+	
+		}
+		
+		@media (max-width: 500px){
+            *{
+				font-size: 0.90em
+			}
+		}
+			@media (max-width: 500px){
+         .art2{
+             font-size: 0.85em
+		 }		
+		}
+
+		P{
+		
+		
+		}
+		 
+		
